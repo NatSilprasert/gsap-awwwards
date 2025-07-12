@@ -59,9 +59,29 @@ body::-webkit-scrollbar {
     .general-title {
         @apply 2xl:text-[8.5rem] md:text-8xl text-5xl font-bold uppercase leading-[9vw] tracking-[-.35vw];
     }
+
+    .hero-container {
+        @apply relative bg-milk w-screen h-dvh overflow-hidden;
+    }
+
+    .hero-title {
+        @apply text-dark-brown 2xl:text-[8.5rem] md:text-[6.5rem] text-[3.3rem] font-bold uppercase leading-[9vw] tracking-[-.35vw] 2xl:mb-0 mb-5;
+    }
+
+    .hero-content {
+        @apply relative z-10 w-full h-full flex flex-col 2xl:justify-center items-center translate-y-10 2xl:pt-0 md:pt-32 pt-24;
+    }
+
+    .hero-text-scroll {
+        @apply rotate-[-3deg] mb-8 border-[.5vw] border-milk;
+    }
+
+    .hero-subtitle {
+        @apply bg-mid-brown;
+    }
 }
 
-@layer components {
+/* @layer components {
     .paragraph-line {
         @apply text-nowrap overflow-hidden;
     }
@@ -71,10 +91,6 @@ body::-webkit-scrollbar {
 
         .hero-content {
             @apply relative z-10 w-full h-full flex flex-col 2xl:justify-center items-center translate-y-10 2xl:pt-0 md:pt-32 pt-24;
-
-            .hero-title {
-                @apply text-dark-brown 2xl:text-[8.5rem] md:text-[6.5rem] text-[3.3rem] font-bold uppercase leading-[9vw] tracking-[-.35vw] 2xl:mb-0 mb-5;
-            }
 
             .hero-text-scroll {
                 @apply rotate-[-3deg] mb-8 border-[.5vw] border-milk;
@@ -270,7 +286,8 @@ body::-webkit-scrollbar {
             }
         }
     }
-}
+} */
+
 
 .nutrition-section {
     background-color: #faeade00;

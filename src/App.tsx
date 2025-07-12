@@ -1,6 +1,9 @@
-import React from 'react'
+import gsap from 'gsap';
 import Navbar from './components/Navbar'
 import Hero from './sections/Hero'
+import { ScrollTrigger } from 'gsap/all';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   return (
@@ -8,6 +11,7 @@ const App = () => {
       <Navbar />
       <div>
         <Hero />
+        <div className='h-dvh'></div>
       </div>
     </main>
   )
