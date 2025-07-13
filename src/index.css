@@ -122,13 +122,13 @@ body::-webkit-scrollbar {
         @apply rotate-[-3deg] md:translate-y-5 border-[.5vw] border-milk absolute z-10;
     }
 
-        /* .first-text-split h1 {
-            @apply md:text-center text-dark-brown;
-        }
+    .first-text-split h1 {
+        @apply md:text-center text-dark-brown;
+    }
 
-        .second-text-split h1 {
-            @apply md:text-center;
-        } */
+    .second-text-split h1 {
+        @apply md:text-center;
+    }
 
     .slider-wrapper {
         @apply lg:h-dvh min-h-dvh md:min-h-fit w-full mt-0 md:mt-20 xl:mt-0;
