@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { nutrientLists } from '../constants';
 import { useMediaQuery } from 'react-responsive';
 import { useGSAP } from '@gsap/react';
