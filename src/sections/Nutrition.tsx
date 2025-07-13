@@ -66,7 +66,7 @@ const Nutrition = () => {
       });
 
     return (
-        <div className='nutrition-section min-h-dvh xl:h-[140dvh] overflow-hidden relative'>
+        <div className='nutrition-section min-h-dvh xl:h-[120dvh] overflow-hidden relative'>
             <img 
                 src="/images/slider-dip.png" 
                 alt="" 
@@ -75,12 +75,12 @@ const Nutrition = () => {
             <img 
                 src="/images/big-img.png" 
                 alt="" 
-                className='w-full absolute 2xl:h-full md:h-2/3 h-1/2 left-0 bottom-0 object-bottom 2xl:object-cotain object-cover'
+                className='xl:w-full absolute xl:h-full md:h-2/3 h-1/2 left-0 bottom-0 object-bottom xl:object-contain object-cover'
             />
 
             <div className='flex md:flex-row flex-col justify-between md:px-10 px-5 mt-14 md:mt-0'>
-                <div className='relative inline-block md:translate-y-20'>
-                    <div className='general-title relative flex flex-col justify-center items-center gap-24'>
+                <div className='relative inline-block md:translate-y-20 xl:translate-y-15'>
+                    <div className='relative flex flex-col justify-center items-center gap-24 2xl:text-[8.5rem] xl:text-[7.2rem] md:text-8xl text-5xl font-bold uppercase leading-[9vw] tracking-[-.35vw]'>
                         <div className='overflow-hidden place-self-start'>
                             <h1 className='nutrition-title'>It still does</h1>
                         </div>
@@ -95,11 +95,11 @@ const Nutrition = () => {
                     </div>
                 </div>
 
-                <div className="flex md:justify-center items-center translate-y-5">
+                <div className="flex md:justify-center items-center translate-y-5 xl:translate-y-[-20px]">
                     <div className="md:max-w-xs max-w-md">
-                        <p className="text-lg md:text-right text-balance font-paragraph">
-                        Milk contains a wide array of nutrients, including vitamins,
-                        minerals, and protein, and this is lactose free
+                        <p className="text-md md:text-right text-balance font-paragraph">
+                        Milk contains a wide array of <br/>nutrients, including vitamins,
+                        minerals, <br/>and protein, and this is lactose free
                         </p>
                     </div>
                 </div>

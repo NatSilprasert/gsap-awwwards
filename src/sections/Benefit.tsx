@@ -1,6 +1,7 @@
 import { useGSAP } from "@gsap/react"
 import ClipPathTitle from "../components/ClipPathTitle"
 import gsap from "gsap"
+import VideoPinSection from "../components/VideoPinSection"
 
 const Benefit = () => {
 
@@ -43,7 +44,7 @@ const Benefit = () => {
     })
 
     return (
-        <div className="benefit-section min-h-dvh bg-[#222123] overflow-hidden relative">
+        <section className="benefit-section min-h-dvh bg-[#222123] overflow-hidden relative">
             <div className="container mx-auto pt-20">
                 <div className="col-center">
                     <p className="text-milk font-paragraph text-center text-lg">
@@ -87,7 +88,11 @@ const Benefit = () => {
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div className="relative overlay-box">
+                <VideoPinSection />
+            </div>
+        </section>
     )
 }
 
