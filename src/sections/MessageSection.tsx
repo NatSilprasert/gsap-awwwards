@@ -14,7 +14,7 @@ const MessageSection = () => {
     })
     const paragraphMsgSplit = SplitText.create('.message-content p', {
       type: "words, lines",
-      linesClass: "paragraph-line",
+      linesClass: "text-nowrap overflow-hidden",
     })
 
     const tl = gsap.timeline({
@@ -64,13 +64,13 @@ const MessageSection = () => {
   })
 
   return (
-    <section className='message-content'>
+    <section className='message-content bg-[#7f3b2d] text-milk min-h-dvh overflow-hidden flex justify-center items-center relative z-20'>
       <div className='container mx-auto flex-center py-28 relative'>
         <div className='w-full h-full'>
 
-          <div className='msg-wrapper'>
+          <div className='msg-wrapper 2xl:text-[8.5rem] md:text-8xl text-5xl font-bold uppercase leading-[9vw] tracking-[-.35vw] flex flex-col justify-center items-center md:gap-24 gap-14'>
 
-            <h1 className='first-message leading-none'>
+            <h1 className='first-message 2xl:max-w-4xl md:max-w-2xl max-w-xs text-center text-[#faeade10] leading-none'>
               Stir up your fearless past and
             </h1>
 
@@ -85,7 +85,7 @@ const MessageSection = () => {
               </div>
             </div>
 
-            <h1 className='second-message leading-none'>
+            <h1 className='second-message 2xl:max-w-7xl md:max-w-4xl max-w-xs text-center text-[#faeade10] leading-none'>
               your future with every gulp of Perfect Protein
             </h1>
 

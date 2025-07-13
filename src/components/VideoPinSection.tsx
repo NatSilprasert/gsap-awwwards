@@ -32,7 +32,7 @@ const VideoPinSection = () => {
             <div 
                 style={{
                     clipPath: isMobile
-                      ? "circle(100% at 50% 50%)"
+                      ? "circle(10% at 50% 50%)"
                       : "circle(6% at 50% 50%)",
                   }}
                 className='video-box size-full'

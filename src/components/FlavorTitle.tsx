@@ -54,7 +54,7 @@ const FlavorTitle = () => {
                 style={{
                     clipPath: 'polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%)'
                 }}
-                className="flavor-text-scroll"
+                className="flavor-text-scroll rotate-[-3deg] md:translate-y-5 border-[.5vw] border-milk absolute z-10"
             >
                 <div className="bg-mid-brown pb-5 2xl:pt-0 pt-3 2xl:px-5 px-3">
                     <h2 className="text-milk">freaking</h2>
